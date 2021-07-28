@@ -15,6 +15,8 @@ The database (H2) console is also accesible via: http://localhost:8080/h2-consol
 
 The scope of the testing is limited to use cases and repositories. All tests are unit tests.
 
+For the sake of testing, apart from scanning the file stock.json, which has been included in the Resource folder of the project, some random Orders and OrderItems are automatically added at the start of the program via the data.sql file. Feel free to edit it or delete it.
+
 Some functionalities that have not been included in this solution but could improve its overall quality:
 
 * ConsoleLoggerService should be replaced by a more complete logger instead of just a System printer.
